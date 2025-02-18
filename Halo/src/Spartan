@@ -1,0 +1,32 @@
+public class Spartan {
+
+
+public String nombre;
+int escudo, salud;
+String armaPrincipal;
+
+public void mostrarInfo(){
+System.out.printl("----------- Información del Spartan ----------- ");
+System.out.printl("Nombre: "+ nombre);
+System.out.printl("% de Salud: "+ Salud);
+System.out.printl("% de Escudo:  "+ escudo);
+System.out.printl("Arma disponible : "+armaPrincipal);
+System.out.printl("----------------------------------------------- ");
+}//llave mostrar info
+
+public void atacar(String enemigo){
+System.out.printl(nombre+ "ataca a "+ enemigo+ "con "+ armaPrincipal);
+}
+
+public void recargarArma(int municiones){
+int total = restantes + municiones;
+System.out.printl(armaPrincipal + " ahora tiene disponible" + total + "balas");
+
+}
+public voi correr(boolean status){
+if(status){
+System.out.printl(nombre+ " esta corriendo ");
+}else{
+System.out.printl(nombre+" se detuvo");
+}
+}
