@@ -2,8 +2,8 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        Cuenta cuenta1 = new Cuenta("12345", "Andrea Rodríguez", 30, 8000);
-        Cuenta cuenta2 = new Cuenta("67890", "Daniel Juárez", 24, 4800);
+        Cuenta cuenta1 = new Cuenta("121040859", "ANDREA RODRÍGUEZ PÉREZ", 23, 18000);
+        Cuenta cuenta2 = new Cuenta("121040858", "RENE PONCE RESÉNDIZ", 22, 12000);
 
         String numCuenta = JOptionPane.showInputDialog("Ingrese su No. de Cuenta: ");
         Cuenta cuenta = null;
